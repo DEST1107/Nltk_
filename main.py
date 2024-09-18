@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Descargas necesarias para nltk
-nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('wordnet')
 nltk.download('omw-1.4')
 
@@ -33,5 +33,3 @@ plt.xlabel('Palabras')
 plt.ylabel('Frecuencia')
 plt.xticks(rotation=45)
 plt.show()
-
-
